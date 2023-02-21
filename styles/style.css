@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  /* --main: #2ecc71; */
+  /* --main: #F5E216; */
+  --main: #F9FD50;
+  --text: #eee;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x:  hidden;
+}
+
+.main-width {
+  width: 1280px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.container {
+  padding-top: 10%;
+}
+
+.container  .hero-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container .hero-container .hero-text {
+  margin-bottom: 40px;
+  border-left: 3px solid var(--main);
+  padding-left: 10px;
+}
+
+.container .hero-container .hero-text h1 {
+  color: var(--text);
+  font-size: 47px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 20px 0 20px;
+}
+
+span {
+  color: var(--main);
+}
+
+.container .hero-container .hero-text h3 {
+  color: var(--text);
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.container .hero-container .hero-text p {
+  width: 600px;
+  max-width: 100%;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+} 
+
+.social a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: var(--text);
+  cursor: pointer;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 35px;
+}
+
+.social a:hover {
+  transform: scale(1.15);
+  transition: .2s;
+}
+
+.container .hero-container .hero-text button {
+  /* color: var(--text); */
+  color: black;
+  background-color: var(--main);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 8px 30px;
+  border: 2px solid var(--main);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.container .hero-container .hero-text button:hover {
+  background-color: transparent;
+  border: 2px solid var(--main);
+  color: var(--main);
+  transition: .25s;
+}
+
+.container .hero-container .hero-text button::after {
+  content: "More About Me";
+}
+.container .hero-container .hero-text button:hover::after {
+  content: "Update Soon";
+}
+
+.container .hero-container .hero-img{
+  background-color: var(--main);
+  object-fit: cover;
+}
+
+.container .hero-container .hero-img img{
+  width: 450px;
+}
+
+.bottom {
+  margin-top: 12%;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom p {
+  color: var(--text);
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.bottom p .username a{
+  color: var(--text);
+  cursor: pointer;
+}
+
+.bottom p .username a:hover{
+  color:var(--main);
+  transition: all 0.3s ease-in-out;
+}
+
+.projectContainer{
+  margin-top: 50px;
+}
+
+.projectContainer .projectsTitle{
+  color: var(--text);
+  font-size: 32px;
+  border-bottom: 3px solid var(--main);
+}
+
+.projectContainer .projects{
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.projectContainer .projects .project{
+  width: 300px;
+  height: 300px;
+  border-bottom: 3px solid var(--main);
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projectContainer .projects .project .project-logo{
+  width: 125px;
+}
+
+.projectContainer .projects .project .project-logo a img{
+  border-radius: 35px;
+  width: 100%;
+}
+
+.projectContainer .projects .project .project-desc{
+  margin-top: 20px;
+}
+
+.projectContainer .projects .project .project-desc > span{
+ color: var(--text);
+ font-size: 18px;
+}
+
+/*
+                      ███████████████████████ 
+                     █ ▄▄▄ ▌                 █
+                     █  █   █ █  █   █ ▀ ▄   █
+                     █  █   █ █  ▐ █ ▌ █ █▀█ █
+                     █ ▀▀▀  ▀ ▀   ▀ ▀  ▀ ▀ ▀ █
+                     █  █████████████████████ 
+                     █ █                      
+     ████████        ██                       
+    █▒▒▒▒▒▒▒▒██   ███                         
+  ██▒▒▒▒▒▒▒▒▒▒▒█ █░░░█                        
+ █▒▒▒▒▒▒▒▒▒▒▒▒▒▒█░░░░█                        
+█░▒▒▒▒▒▒▒▒▒▒▒▒▒░░░███                         
+█░░█░░█████░░█░░██                            
+ █████     █████                              
+ 
+*/
