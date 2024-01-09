@@ -177,7 +177,7 @@ span {
 }
 
 .projectContainer .projects .project{
-  width: 300px;
+  width: 270px;
   height: 300px;
   border-bottom: 3px solid var(--main);
   margin: 20px;
