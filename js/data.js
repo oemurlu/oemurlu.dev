@@ -2,7 +2,7 @@
 
 const swiperData = [
     {
-      title: "Dergice",
+      title: "dergiCE",
       logo: "/assets/dergice/dergiCE-logo.png",
       images: ["/assets/dergice/ss1.png", "/assets/dergice/ss2.png", "/assets/dergice/ss3.png"],
       appType: "App Store",
@@ -26,7 +26,7 @@ const swiperData = [
       background: "linear-gradient(to right, rgb(47, 81, 158) 5.5%, rgb(242, 75, 164) 92.8%)"
     },
     {
-      title: "BazaarBundle - eCommerce app",
+      title: "BazaarBundle",
       logo: "/assets/bazaarBundle/bazaarBundle-logo.png",
       images: ["/assets/bazaarBundle/ss1.png", "/assets/bazaarBundle/ss2.png", "/assets/bazaarBundle/ss3.png"],
       appType: "Github",
