@@ -8,6 +8,19 @@
   .container .hero-container .hero-img {
     margin-bottom: 50px;
   }
+
+  .swiper {
+    width: 80vw;
+    height: 45vw;
+  }
+
+  .website-link {
+    font-size: 16px;
+  }
+
+  .swiper-photo{
+    margin-top: 25px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -37,6 +50,26 @@
   .container .hero-container .hero-img img {
     width: 100%;
   }
+
+  .app-logo-title{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    background-color: rgba(0, 0, 0, 0.863);
+    padding: 5px 5px;
+    border-radius: 6px;
+  }
+
+  .app-logo-title{
+    top: 5px;
+    left: 15px;
+  }
+  
+  .swiper-photo{
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 530px) {
@@ -56,5 +89,27 @@
 
   .container .hero-container .hero-text p {
     font-size: 18px;
+  }
+
+  .app-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+  @keyframes octocat-wave {
+    0%, 100% { transform: rotate(0); }
+    20%, 60% { transform: rotate(-25deg); }
+    40%, 80% { transform: rotate(10deg); }
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+  
+  .github-corner:hover .octo-arm {
+    animation: none;
   }
 }
