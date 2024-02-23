@@ -1,101 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oemurlu.dev</title>
+    <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Femojis.wiki%2Femoji-pics%2Fmicrosoft%2Fsparkles-microsoft.png&f=1&nofb=1&ipt=9f5ad1b2fbff5ddd37dc4a015bd21b819a41fea80e60fce25a09ad8736b57f65&ipo=images">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>oemurlu.dev</title>
-  <link rel="icon"
-    href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Femojis.wiki%2Femoji-pics%2Fmicrosoft%2Fsparkles-microsoft.png&f=1&nofb=1&ipt=9f5ad1b2fbff5ddd37dc4a015bd21b819a41fea80e60fce25a09ad8736b57f65&ipo=images">
-  <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="./styles/media.css" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <section class="hero">
-    <div class="main-width">
-      <div class="container">
-        <div class="hero-container">
-          <div class="hero-text">
-            <h3>Hi, There!</h3>
-            <h1>I Am <span class="input"></span></h1>
-            <p>
-              I'm a 3rd-grade computer engineering student at Pamukkale University, interested in mobile technologies.
+  <body>
+    <section class="hero">
+      <div class="main-width">
+        <div class="container">
+          <div class="hero-container">
+            <div class="hero-text">
+              <h3>Hi, There!</h3>
+              <h1>I Am <span class="input"></span></h1>
+              <p>
+                I'm a 3rd-grade computer engineering student at Pamukkale University, interested in mobile technologies.
               Currently, I'm learning iOS technologies and working hard to become a software engineer.
-            </p>
-
-            <div class="social">
-              <a href="mailto:oemurludev@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-              <a href="https://twitter.com/oemurlu" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-              <a href="https://www.linkedin.com/in/oemurlu/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://github.com/oemurlu" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="https://apps.apple.com/tr/developer/osman-emre-omurlu/id1723812554" target="_blank"><i
-                  class="fa-brands fa-apple"></i></a>
-              <a href="https://www.instagram.com/oe.omurlu/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <button type="submit" onclick=" window.open('./assets/oemurlu-cv.pdf'); return true;"></button>
-          </div>
-          <div class="hero-img">
-            <img src="./assets/img/oe-pp.jpg" alt="" />
-          </div>
-        </div>
-
-        <div class="projectContainer">
-          <span class="projectsTitle">Projects</span>
-          <h4> <i class="fa-solid fa-arrow-left-long swipeLeft"></i> Swipe it!
-            <i class="fa-solid fa-arrow-right-long swipeRight"></i>
-          </h4>
-          <!-- swiper -->
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper" id="swiperWrapper">
-              <!-- swiper's content will be in here -->
-            </div>
-
-            <div class="bottom">
-              <p>©
-                <script>document.write(new Date().getFullYear())</script> - <span class="username"><a
-                    href="https://github.com/oemurlu">Osman Emre Omurlu</a></span>
               </p>
+
+              <div class="social">
+                <a href="mailto:oemurludev@gmail.com"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+                <a href="https://twitter.com/oemurlu" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/oemurlu/" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/oemurlu" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://apps.apple.com/tr/developer/osman-emre-omurlu/id1723812554" target="_blank"
+                  ><i class="fa-brands fa-apple"></i
+                ></a>
+                <a href="https://www.instagram.com/oe.omurlu/" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </div>
+              <button type="submit" onclick=" window.open('./assets/oemurlu-cv.pdf'); return true;"></button>
+            </div>
+            <div class="hero-img">
+              <img src="./assets/img/oe-pp.jpg" alt="" />
             </div>
           </div>
+
+          <div class="projectContainer">
+            <span class="projectsTitle">Projects</span>
+            <h4> <i class="fa-solid fa-arrow-left-long swipeLeft"></i> Swipe it! 
+              <i class="fa-solid fa-arrow-right-long swipeRight"></i></h4>
+            <!-- swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper" id="swiperWrapper">
+                <!-- swiper's content will be in here -->
+          </div>
+
+          <div class="bottom">
+            <p>© <script>document.write(new Date().getFullYear())</script> - <span class="username"><a href="https://github.com/oemurlu">Osman Emre Omurlu</a></span></p>
+          </div>
         </div>
-  </section>
+      </div>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="./js/data.js"></script>
-  <script>
-    var typed = new Typed(".input", {
-      strings: ["Osman Emre Omurlu.", "iOS Developer."],
-      typeSpeed: 70,
-      backSpeed: 60,
-      loop: true,
-    });
-  </script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/data.js"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings: ["Osman Emre Omurlu.", "iOS Developer."],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true,
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
       const swiperWrapper = document.getElementById('swiperWrapper');
-
+      
       // take projects data from data.js
       swiperData.forEach(item => {
         const swiperSlide = document.createElement('div');
         swiperSlide.className = 'swiper-slide';
-        swiperSlide.style.background = `${item.background}`
+        swiperSlide.style.background=`${item.background}`
 
         // create html for all images
         const imagesHtml = item.images.map(image =>
           `<div class="swiper-photo"><img class="swiper-photo-image" src="${image}" alt=""></div>`
         ).join('');
 
+        // create html for keyFeatures 
+        const keyFeatures = item.keyFeatures.map(feature =>
+          `<div class="tech-item">♦ ${feature}</div>`
+        ).join('');
+
         // if statement to put swiper's corner an icon of "github" or "app store"
         const appTypeHtml = item.appType === "App Store"
-          ? `<a href="${item.appLink}" target="_blank">
+        ? `<a href="${item.appLink}" target="_blank">
                   <div class="app-store-svg">
                     <svg width="40" height="40" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" style="">
                       <defs>
@@ -129,7 +143,7 @@
                       fill="currentColor" class="octo-body"></path>
                 </svg>
               </a>`;
-
+        
         // create swiper's content
         swiperSlide.innerHTML = `
           <div class="app-logo-title">
@@ -139,6 +153,9 @@
             <span class="app-title" style="color: white;">${item.title}</span>
           </div>
           <div class="swiper-photo-container">${imagesHtml}</div>
+          <div class="tech-stack">
+            <div class="tech-items">${keyFeatures}</div>
+          </div>
           ${appTypeHtml}
         `;
 
@@ -151,9 +168,8 @@
         grabCursor: true,
       });
     });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
 
 <!-- 
