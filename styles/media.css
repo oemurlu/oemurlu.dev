@@ -14,6 +14,10 @@
     height: 45vw;
   }
 
+  .tech-stack {
+    display: none;
+  }
+
   .website-link {
     font-size: 16px;
   }
