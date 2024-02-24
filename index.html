@@ -61,7 +61,7 @@
 
           <div class="projectContainer">
             <span class="projectsTitle">Projects</span>
-            <h4> <i class="fa-solid fa-arrow-left-long swipeLeft"></i> Swipe it! 
+            <h4> <i class="fa-solid fa-arrow-left-long swipeLeft"></i> Swipe and click on the icon at the top right! 
               <i class="fa-solid fa-arrow-right-long swipeRight"></i></h4>
             <!-- swiper -->
             <div class="swiper mySwiper">
@@ -106,6 +106,8 @@
         const keyFeatures = item.keyFeatures.map(feature =>
           `<div class="tech-item">♦ ${feature}</div>`
         ).join('');
+
+        
 
         // if statement to put swiper's corner an icon of "github" or "app store"
         const appTypeHtml = item.appType === "App Store"
