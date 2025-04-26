@@ -2,6 +2,24 @@
 
 const swiperData = [
   {
+    title: "Zirve20: Özel Güvenlik",
+    logo: "/assets/zirve20/zirve20-logo.png",
+    images: ["/assets/zirve20/ss1.png", "/assets/zirve20/ss2.png", "/assets/zirve20/ss3.png"],
+    appType: "App Store",
+    appLink: "https://apps.apple.com/tr/app/zirve20-%C3%B6zel-g%C3%BCvenlik/id6741827835",
+    background: "linear-gradient(to left, #FF3CAC 0%, #2B86C5 70%)",
+    keyFeatures: ["SwiftUI", "MVVM", "QR Code Scanner"]
+  },
+  {
+    title: "PauSiberim",
+    logo: "/assets/pauSiberim/pausiberim-logo.png",
+    images: ["/assets/pauSiberim/ss1.png", "/assets/pauSiberim/ss2.png", "/assets/pauSiberim/ss3.png"],
+    appType: "App Store",
+    appLink: "https://apps.apple.com/tr/app/pausiberim/id6686407514",
+    background: "linear-gradient(to left, #FF3CAC 0%, #2B86C5 70%)",
+    keyFeatures: ["MVVM-C", "Programmatic UI", "Protocol Oriented"]
+  },
+  {
     title: "Video Games",
     logo: "/assets/videoGames/video-games-logo.png",
     images: ["/assets/videoGames/ss1.png", "/assets/videoGames/ss2.png", "/assets/videoGames/ss3.png"],
