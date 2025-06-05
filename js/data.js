@@ -1,6 +1,15 @@
 // you can take background's values from this website "https://gradients.shecodes.io/gradients"
 
 const swiperData = [
+    {
+    title: "Pautopia",
+    logo: "/assets/pautopia/pautopia-logo.jpg",
+    images: ["/assets/pautopia/ss1.png", "/assets/pautopia/ss2.png", "/assets/pautopia/ss3.png"],
+    appType: "App Store",
+    appLink: "https://apps.apple.com/app/pautopia/id6744872621",
+    background: "linear-gradient(to left, #FF3CAC 0%, #2B86C5 70%)",
+    keyFeatures: ["MVVM", "Protocol Oriented", "Clean Code", "Firebase"]
+  },
   {
     title: "Zirve20: Özel Güvenlik",
     logo: "/assets/zirve20/zirve20-logo.png",
@@ -35,7 +44,7 @@ const swiperData = [
     appType: "App Store",
     appLink: "https://apps.apple.com/tr/app/dergice/id6475283036",
     background: "linear-gradient(to right, #FF3CAC 0%, #2B86C5 80%)",
-    keyFeatures: ["Webview", "OneSignal", "StoreKit", "App Store processes"]
+    keyFeatures: ["Webview", "OneSignal"]
   },
   {
     title: "Food Order",
